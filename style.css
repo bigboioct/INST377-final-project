@@ -82,6 +82,9 @@
     padding-bottom: 1.5rem;
   }
   
+  .bottom {
+    flex-direction: column;
+  }
   
   /*
     This rule implies that the H1 tag lives within another HTML tag
