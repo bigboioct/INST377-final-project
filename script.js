@@ -18,6 +18,9 @@ function injectHTML(list) {
     var final_input;
     const url = "https://trackapi.nutritionix.com/v2/search/instant?query=";
 
+    const storedData = localStorage.getItem('storedData');
+
+
     input.addEventListener('input', (event) => {
       input_arr.push(document.getElementById("input_Text").value);
       final_input = input_arr.slice(-1);
@@ -35,8 +38,9 @@ function injectHTML(list) {
       });
 
       const data = await result.json()
-
-      console.log(data)
+      localStorage.setItem('storedData', JSON.stringify(data));
+      parsedData = data;
+      console.log(parsedData);
     })
     
 
