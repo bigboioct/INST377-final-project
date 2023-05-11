@@ -1,7 +1,11 @@
-# INST377 final project repository:
-# https://bigboioct.github.io/INST377-final-project/
+INST377 final project website:
+https://bigboioct.github.io/INST377-final-project/
 
-Nutrition Checker. 
+#Nutrition Checker
 
-# Groupmates: Octavio Sanchez, Luis Valderrama, Prince Ajuzie, Omar Ali
-# Nutritionix API along with my website to allow end users to search nutrition information
+Description:
+
+This website targets iOS and Android users requesting information from certain foods for a data visualization of its nutrition. 
+
+
+Groupmates: Octavio Sanchez, Luis Valderrama, Prince Ajuzie, Omar Ali
