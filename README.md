@@ -1,7 +1,7 @@
 INST377 final project website:
 https://bigboioct.github.io/INST377-final-project/
 
-# Nutrition Checker
+# Utrition
 
 Description:
 
