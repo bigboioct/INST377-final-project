@@ -58,22 +58,22 @@ async function mainEvent() {
     });
 
     const data = await result.json()
-      injectHTML(data.branded);
-      localStorage.setItem('storedData', JSON.stringify(data));
-      parsedData = data;
-      console.log(parsedData);
-    })
-    
+    injectHTML(data.branded);
+    localStorage.setItem('storedData', JSON.stringify(data));
+    parsedData = data;
+    console.log(parsedData);
+  })
+  
 
 
-    addToChart.addEventListener('click', async (SubmitEvent) => {
-      console.log('added to chart');
-    })
+  addToChart.addEventListener('click', async (SubmitEvent) => {
+    console.log('added to chart');
+  })
 
-    clearChart.addEventListener('click', async (SubmitEvent) =>{
-      console.log('cleared chart');
+  clearChart.addEventListener('click', async (SubmitEvent) =>{
+    console.log('cleared chart');
 
-    })
-  }
+  })
+}
 
-  document.addEventListener("DOMContentLoaded", async () => mainEvent()); // the async keyword means we can make API requests
+document.addEventListener("DOMContentLoaded", async () => mainEvent()); // the async keyword means we can make API requests
