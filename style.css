@@ -97,7 +97,7 @@
     /* this will push other blocks out of the way */
   
     /* colors */
-    background-color: rgba(227, 10, 162, 0.148);
+    background-color: rgba(101, 236, 241, 0.148);
     color: #EFF7FF;
   
     /* shapes */
@@ -126,7 +126,7 @@
   }
 
   .box {
-    background-color: rgba(19, 99, 142, 0.2);
+    background-color: rgba(243, 209, 109, 0.2);
     border: 2px dashed;
     border-radius: 4px;
   
