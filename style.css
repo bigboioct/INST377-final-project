@@ -91,7 +91,7 @@
 
   .box {
     background-color: rgba(246, 194, 39, 0.2);
-    border: 3px dashed;
+    border: 2px dashed;
     border-radius: 4px;
   
     width: fit-content;
